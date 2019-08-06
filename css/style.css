@@ -21,6 +21,11 @@ body {
     padding:  0 65px;
 }
 
+.wrapper {
+    display: block;
+    margin: 0 auto;
+}
+
 /* HEADER STYLES */
 
 header {
@@ -122,7 +127,7 @@ input[type="password"]:focus{
 .login_form h6 {
     margin: auto 140px;
 }
-input[type="button"]{
+input[type="submit"]{
     display: block;
     background: linear-gradient(rgb(106, 195, 255), rgb(13, 137, 194));
     border: none;
@@ -131,6 +136,7 @@ input[type="button"]{
     margin: 15px auto;
     color: white;
     font-weight: 700;
+    cursor: pointer;
 }
 
 input[type="checkbox"] {
