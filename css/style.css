@@ -12,19 +12,19 @@
     url("/fonts/HelveticaNeue/helveticaneuecyr-thin.otf");
     }
 
+.wrapper {
+        margin: 0 auto;
+        width: 1215px;
+    }
 body {
     font-family: "HelveticaNeue", "Arial", sans-serif;
     font-size: 14px;
     line-height: 1.4;
-    width: 1215px;
     color: rgb(255, 255, 255);
     padding:  0 65px;
 }
 
-.wrapper {
-    display: block;
-    margin: 0 auto;
-}
+
 
 /* HEADER STYLES */
 
@@ -37,7 +37,6 @@ header {
 }
 
 nav {
-    list-style: none;
     border-right: solid 1px rgb(93, 224, 247);
 }
 
@@ -83,14 +82,9 @@ main {
 }
 .login_form {
     display: block;
-    width: 560px;
     height: 615px;
     background: rgba(0, 0, 0, 0.4);
-margin: 0px 330px 200px 330px;
-
-}
-ul {
-    list-style: none;
+    margin: 0px 330px 200px 330px;
 }
 
 input[type~="name"],
@@ -150,16 +144,14 @@ input[type="checkbox"] {
 }
 
 .heading {
-    display: inline-block;
     height: 25px;
     margin: 210px 330px 2px 330px;
     background: rgba(0, 0, 0, 0.4);
-    width: 590px;
     padding: 20px 0px;
     text-align: center;
     
 }
-h6 {
+h1 {
     font-size: 24px;
     font-weight: 700; 
 }

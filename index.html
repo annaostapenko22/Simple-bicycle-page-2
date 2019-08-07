@@ -8,61 +8,57 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Cadastre</title>
 </head>
+<div class="wrapper">
 
-<body>
+  <body>
 
-  <div class="wrapper"><header>
+    <header>
 
-    <nav>
+      <nav>
 
-      <a href="#mybike">Meu YouBike</a>
-      <a href="#sale">Vender</a>
-      <a href="#chat">Forum</a>
-      <a href="#contacts">Contato</a>
-      <a href="#help">Ajuda</a>
+        <a href="#mybike">Meu YouBike</a>
+        <a href="#sale">Vender</a>
+        <a href="#chat">Forum</a>
+        <a href="#contacts">Contato</a>
+        <a href="#help">Ajuda</a>
 
-    </nav>
-    <img src="img/flag.png">
-    <section id="header_section_text">Minhas Ofertas</section>
-    <section class="sign_in">
-      <p>Ola!
-        <a class="underline" href="#signin">Entrar
-        </a>ou
-        <a class="underline" href="#login">Cadastre-se
-        </a>
-      </p>
-    </section>
-    </div>
-  </header>
-  <main>
-    <div class="heading">
-      <h6>Cadastre-se</h6>
-    </div>
-    <section class="login_form">
+      </nav>
+      <img src="img/flag.png">
+      <section id="header_section_text">Minhas Ofertas</section>
+      <section class="sign_in">
+        <p>Ola!
+          <a class="underline" href="#signin">Entrar
+          </a>ou
+          <a class="underline" href="#login">Cadastre-se
+          </a>
+        </p>
+      </section>
 
-      <a href="img/facebook.png"><img src="img/facebook.png"></a>
-      <div><img src="img/line.png"></div>
-      <form name="login" action="index_submit" method="get" accept-charset="utf-8" class="form_content">
-        <ul>
-          <li><label for="first_name"></label><input type="name" name="first_name" placeholder="First Name" required>
-          </li>
-          <li><label for="last_name"></label><input type="name" name="last_name" placeholder="Last Name" required>
-          </li>
-          <li><label for="usermail"></label><input type="email" name="usermail" placeholder="Email Adress" required>
-          </li>
-          <li><label for="password"></label><input type="password" name="password_choose" placeholder="Choose Password"
-              required></li>
-          <li><label for="password_confirm"></label><input type="password" name="password_confirm"
-              placeholder="Password Confirm" required></li>
-          <li id="checkbox_text"><input type="checkbox" name="updates_tips">Send me YouBike updates and tips</li>
-          <li><input type="submit" value="Create my Account"></li>
-        </ul>
-      </form>
-      <aside class="add_info">
-        <p>By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.</p>
-      </aside>
-    </section>
-  </main>
+    </header>
+    <main>
+      <div class="heading">
+        <h1>Cadastre-se</h1>
+      </div>
+      <section class="login_form">
+
+        <a href="img/facebook.png"><img src="img/facebook.png"></a>
+        <div><img src="img/line.png"></div>
+        <form name="login" action="index_submit" method="get" accept-charset="utf-8" class="form_content">
+          <label for="first_name"></label><input type="name" name="first_name" placeholder="First Name" required>
+          <label for="last_name"></label><input type="name" name="last_name" placeholder="Last Name" required>
+          <label for="usermail"></label><input type="email" name="usermail" placeholder="Email Adress" required>
+          <label for="password"></label><input type="password" name="password_choose" placeholder="Choose Password"
+            required>
+          <label for="password_confirm"></label><input type="password" name="password_confirm"
+            placeholder="Password Confirm" required>
+          <label><input type="checkbox" name="updates_tips" id="checkbox_text">Send me YouBike updates and tips</label>
+          <input type="submit" value="Create my Account">
+        </form>
+        <aside class="add_info">
+          <p>By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.</p>
+        </aside>
+      </section>
+    </main>
 </div>
 </body>
 
